@@ -10,8 +10,18 @@ namespace Elso
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
-            Console.ReadLine();
+            int szam1;
+            int szam2;
+            string beolvasott;
+
+            Console.Write("elso szam: ");
+            beolvasott = Console.ReadLine();
+            szam1 = Convert.ToInt32(beolvasott);
+            szam1 = szam1+3;
+            Console.Write("megadott szam +3 = ");
+            Console.WriteLine(szam1);
+            Console.ReadKey();
+                        
         }
     }
 }
