@@ -8,6 +8,11 @@ namespace masodik
 {
     class Program
     {
+        private static int Add(int a, int b)
+        {
+            return a + b;
+        }
+
         static void Main(string[] args)
         {
             int a;
@@ -58,6 +63,9 @@ namespace masodik
             {
                 Console.WriteLine("Nullat adtal meg");
             }
+
+            int result = Add(1, 2);
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }

@@ -20,10 +20,16 @@ namespace Masodik
             v = Console.ReadLine();
             b = Convert.ToInt32(v);
             int c = b - a;
-            Console.WriteLine("Talald ki mi a logika");
+            Console.WriteLine("Talald ki mi a logika: ");
             Console.Write(c);
             Console.WriteLine("szamok 1-tol az elso megadottig:");
-            
+            int seged = 1;
+            do {
+                Console.Write( seged );
+                Console.Write(" ");
+                seged++; 
+            }
+            while (seged <= a);
             Console.WriteLine();
             Console.ReadKey();
 
