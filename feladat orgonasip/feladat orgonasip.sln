@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "feladat orgonasip", "feladat orgonasip\feladat orgonasip.csproj", "{BB7151D5-3382-40FC-A547-D513CD6E2514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testtomeg index", "testtomeg index\testtomeg index.csproj", "{F40643FE-0C29-423F-8820-4EECF4A270D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB7151D5-3382-40FC-A547-D513CD6E2514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7151D5-3382-40FC-A547-D513CD6E2514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7151D5-3382-40FC-A547-D513CD6E2514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7151D5-3382-40FC-A547-D513CD6E2514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40643FE-0C29-423F-8820-4EECF4A270D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40643FE-0C29-423F-8820-4EECF4A270D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40643FE-0C29-423F-8820-4EECF4A270D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40643FE-0C29-423F-8820-4EECF4A270D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
