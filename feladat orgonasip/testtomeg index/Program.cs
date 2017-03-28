@@ -10,9 +10,13 @@ namespace testtomeg_index
     {
         static void Main(string[] args)
         {
-            Console.Write("Add meg a súlyodat kilogramban: " );
-            string v1 = Console.ReadLine();
-            int suly = Convert.ToInt32(v1);
+            int suly;
+            do
+            {
+                Console.Write("Add meg a súlyodat kilogramban: ");
+                string v1 = Console.ReadLine();
+                suly = Convert.ToInt32(v1);
+            } while (suly > 0);
             Console.Write("Add meg a magasságodat centiméterben: ");
             string v2 = Console.ReadLine();
             double magassag = Convert.ToDouble(v2);
